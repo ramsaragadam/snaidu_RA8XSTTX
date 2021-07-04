@@ -225,6 +225,7 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <description>Account description Promotion CustomObjectToOverwriteAttributesAndPreserveNested</description>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
@@ -493,12 +494,33 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>aaa__c</fullName>
+        <externalId>false</externalId>
+        <label>aaa</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>field_text__c</fullName>
         <description>aaaaaa</description>
         <externalId>false</externalId>
         <inlineHelpText>aaaaa</inlineHelpText>
         <label>field_text</label>
         <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+   <fields>
+        <fullName>moeexternal__c</fullName>
+        <description>moeexternal</description>
+        <externalId>true</externalId>
+        <label>moeexternal</label>
+        <length>20</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
